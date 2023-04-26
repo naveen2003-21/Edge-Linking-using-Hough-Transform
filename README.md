@@ -7,15 +7,14 @@ Anaconda - Python 3.7
 
 ## Algorithm:
 ### Step1:
-<br>
 Read the image
 
 ### Step2:
-<br>
+
 Convert the input image to gray to get more details
 
 ### Step3:
-<br>
+
 Apply any smoothing filter , here we apply gaussian blur
 
 ### Step4:
@@ -32,7 +31,7 @@ Developed By: NAVEEN KUMAR A
 Reg No      : 212221240032
 # Read image and convert it to grayscale image
 
-image = cv2.imread('lanes.jpg')
+image = cv2.imread('m.png')
 gimage = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 cv2.imshow('Converted Image', gimage)
@@ -77,10 +76,9 @@ cv2.destroyAllWindows()
 
 ![h1](https://user-images.githubusercontent.com/94387019/234518261-d9449089-8c6e-4450-a498-375c59968cfa.png)
 
-
 ### Canny Edge detector output
 
-
+![h2](https://user-images.githubusercontent.com/94387019/234522576-ad25478c-87f1-482d-b342-f34ddaae1c10.png)
 
 ### Display the result of Hough transform
 
